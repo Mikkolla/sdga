@@ -1,0 +1,30 @@
+// vendors
+@import 'vendors/reset';
+
+// utils
+@import 'utils/vars';
+@import 'utils/mixins';
+
+// layout
+@import 'layout/base';
+@import 'layout/scroll';
+@import 'layout/grid';
+
+// components
+@import 'components/header';
+@import 'components/footer';
+
+
+// need to remove
+@import 'components/template';
+
+
+
+
+
+@import 'components/section/section-maiin';
+@import 'components/section/section-function';
+@import 'components/section/section-icon';
+@import 'components/section/section-photo';
+
+

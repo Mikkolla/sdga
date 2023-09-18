@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gulp Starter Project my LemonSchool</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Unica+One&family=Vollkorn:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+	
+</head>
+
+<body>
+	@@include('blocks/header.html')
+	
+	@@include('components/section/section-function.html')
+	@@include('components/section/section-icon.html')
+	@@include('components/section/section-photo.html')
+	
+	
+	
+	
+	@@include('blocks/footer.html')
+	<script src="./js/index.bundle.js"></script>
+	<script>
+		function navToggle() {
+			document.getElementById("headerUl").classList.toggle("_active");
+			document.getElementById("headerBackdrop").classList.toggle("_active");
+		}
+	</script>
+</body>
+
+</html>
